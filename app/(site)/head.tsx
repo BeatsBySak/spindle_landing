@@ -5,6 +5,9 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Built with Next.js and TypeScript" />
       <link rel="icon" href="/images/favicon.ico" />
+      <meta property="og:image" content="/images/Thumbnail.jpeg"/>
+      
+
     </>
   );
 }
