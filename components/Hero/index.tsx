@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Link from 'next/link'
+
 
 const Hero = () => {
   const [email, setEmail] = useState("");
@@ -54,18 +56,23 @@ const Hero = () => {
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
                 <div className=" relative aspect-[700/444] w-full">
+                  <Link href={"https://youtu.be/_73k8-rdsC4?si=3suL20NDyuGfslHX"}>
                   <Image
                     className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.svg"
+                    src="/images/Thumbnail.jpeg"
                     alt="Hero"
                     fill
-                  />
+                    />
+                  
                   <Image
+                  
                     className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
+                    src="/images/Thumbnail.jpeg"
                     alt="Hero"
                     fill
                   />
+                 </Link>
+                  
                 </div>
               </div>
             </div>
